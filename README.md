@@ -7,14 +7,14 @@
 - output1 = 3 rows: min, max, avg
 - output2 = 1 row: min of all, max of all, avg of all
 
-# Plan
+# Walk through
 Given there were no library restraints, Pandas was used throught the solution. 
-1. import csv
-2. produce 3 equally sized rows for each of output1
-4. add a column for the min, max, avg of all
-5. print stdoutput
+1. imported csv
+2. produce 3 equally sized rows for each of of the unique host aggregations
+4. with the unique host aggregation generate the min, max, avg for the total
+5. create a stdoutput str and print it
 6. format output to json as  `{column: {min: , max: , avg: },...}`
-7. Wrote to files under outputs directory
+7. wrote to files as csv and json under outputs the outputs directory
 
 # **How To Send** 
 
